@@ -13,3 +13,5 @@ Project carried out using the technologies:
 • HTML
 
 • CSS
+
+In addition to the [Rick and Morty API](https://rickandmortyapi.com)
