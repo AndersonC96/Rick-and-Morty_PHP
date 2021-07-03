@@ -1,2 +1,2 @@
-# Rick-and-MortyPHP
+# Rick and MortyPHP
  
