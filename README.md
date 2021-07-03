@@ -2,17 +2,17 @@
  
 Project carried out using the technologies:
 
-• PHP
+ • PHP
 
-• MySQL
+ • MySQL
 
-• AJAX
+ • AJAX
 
-• JavaScript / jQuery
+ • JavaScript / jQuery
 
-• HTML
+ • HTML
 
-• CSS
+ • CSS
 
 In addition to the [Rick and Morty API](https://rickandmortyapi.com).
 
