@@ -1,6 +1,6 @@
 <?php
 	require_once "class.php";
-	$db = new rickmortyDB;
+	$db = new rickmortydb;
 	$db->connect();
 ?>
 <!DOCTYPE html>
