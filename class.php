@@ -1,9 +1,9 @@
 <?php
-    class rickmortyDB{
+    class rickmortydb{
         private $db_host = "localhost";
         private $db_user = "root";
         private $db_pass = "";
-        private $db_name = "rickmortyDB";
+        private $db_name = "rickmortydb";
         private $con;
         public function connect(){
 			if($connect = mysqli_connect($this->db_host, $this->db_user, $this->db_pass)){
