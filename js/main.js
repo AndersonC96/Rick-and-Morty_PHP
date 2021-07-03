@@ -41,7 +41,11 @@ $(document).ready(function(){
                     character_div += "<div class='card mb-3 character rounded-0' style=''>";
                     character_div += "<img src='" + res[key]['image'] + "' class='card-img-top rounded-0'></img>";
                     character_div += "<div class='card-body'>";
-                    character_div += "<h5 class='card-title mb-0 mt-2 osr'>" + res[key]['name'] + "</h5>";
+                    character_div += "<h5 class='card-title mb-0 mt-2 osr'>Nome: " + res[key]['name'] + "</h5>";
+                    character_div += "<h5 class='card-title mb-0 mt-2 osr'>Status: " + res[key]['status'] + "</h5>";
+                    character_div += "<h5 class='card-title mb-0 mt-2 osr'>Species: " + res[key]['species'] + "</h5>";
+                    character_div += "<h5 class='card-title mb-0 mt-2 osr'>Type: " + res[key]['type'] + "</h5>";
+                    character_div += "<h5 class='card-title mb-0 mt-2 osr'>Gender: " + res[key]['gender'] + "</h5>";
                     character_div += "<div class='rate my-0 py-0' data-rate-value="+res[key]['rate']+" alt='"+res[key]['id']+"'></div>";
                     character_div += "</div></div></div>";
                     if (counter % 4 == 3) {character_div += "</div>";}
