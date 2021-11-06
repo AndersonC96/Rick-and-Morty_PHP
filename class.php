@@ -108,6 +108,7 @@
                     $data['type'] = $character->type;
                     $data['gender'] = $character->gender;
                     $data['image'] = $character->image;
+                    $data['origin'] = $character->origin->name;
                     $data['rate'] = $this->get_character_rate($token, $character->id);
                     array_push($characters, $data);
                 }
