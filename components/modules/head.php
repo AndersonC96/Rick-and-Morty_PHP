@@ -4,7 +4,7 @@
     <title>Rick and Morty Character Search</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="shortcut icon" href="./favicon.ico"/>
+    <link rel="shortcut icon" href="./components/modules/favicon.ico"/>
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/rater.min.js"></script>
