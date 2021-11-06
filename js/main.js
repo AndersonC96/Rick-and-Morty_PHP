@@ -47,6 +47,7 @@ $(document).ready(function(){
                     character_div += "<h5 class='card-title mb-0 mt-2 osr'><b>Type: </b>" + res[key]['type'] + "</h5>";
                     character_div += "<h5 class='card-title mb-0 mt-2 osr'><b>Gender: </b>" + res[key]['gender'] + "</h5>";
                     character_div += "<h5 class='card-title mb-0 mt-2 osr'><b>Origin: </b>" + res[key]['origin'] + "</h5>";
+                    character_div += "<h5 class='card-title mb-0 mt-2 osr'><b>Location: </b>" + res[key]['location'] + "</h5>";
                     character_div += "<div class='rate my-0 py-0' data-rate-value="+res[key]['rate']+" alt='"+res[key]['id']+"'></div>";
                     character_div += "</div></div></div>";
                     if (counter % 4 == 3) {character_div += "</div>";}
