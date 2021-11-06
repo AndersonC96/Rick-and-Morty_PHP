@@ -129,7 +129,7 @@ $(document).ready(function(){
     });
     $("#register-form").submit(function(){
         $.ajax({
-			url: "components/ajax/register.php",    //Plik zwracający dane z dialami w postaci JSON
+			url: "components/ajax/register.php",
 			method: "post",
 			data: {
 				email : $("#registerEmail").val(),
