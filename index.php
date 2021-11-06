@@ -16,10 +16,10 @@
                 echo "<section class='container'>";
 				include "components/modules/search_form.php";
 				include "components/modules/characters.php";
-			    echo "</section>";
-		    }else{
+                echo "</section>";
+            }else{
                 include "components/modules/logout.php";
-		    }
-	    ?>
+            }
+        ?>
     </body>
 </html>
